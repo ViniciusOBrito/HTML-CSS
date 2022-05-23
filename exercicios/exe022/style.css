@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body{
+    font: normal 16px Arial,serif;
+    color: green;
+
+}
+
+#titulo-principal{
+    color: white;
+    background-color: green;
+    text-align: center;
+}
+
+.topicos{
+    text-align: right;
+    color: rgb(57, 124, 57);
+}
+
+.textos{
+    text-align: justify;
+}

@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    background-image: linear-gradient(180deg,#9BB3CF,#91CECF);
+}
+
+main{
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(119, 141, 165, 0.616);
+}
+
+h1{
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    color: #86CFA7;
+    text-align: center;
+    text-shadow: 1px 1px 2px #365544de;
+}
+
+h2{
+    font-size: 1,5em;
+    font-family: 'Times New Roman', Times, serif;
+    color: #CFA9A5;
+}
+
+p{
+  font: bold italic 1em Arial,Helvetica,sans-serif;
+  /*A ordem de comando de uma shorthand é
+  - font-style
+  -font-variante
+  -font-weight
+  -font-size/line-height
+  -font-family
+  */
+}
