@@ -1,0 +1,205 @@
+@charset 'UTF-8';
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+:root{
+    --cor1 : #c2429b;
+    --cor2 : #f89eaa;
+    --cor3 : #fc566c;
+    --cor4 : #F75C71;
+    --cor5 : #8e54bd;
+    --font1: 'Kdam Thmor Pro', sans-serif;
+    --font2: 'Roboto Mono', monospace;
+}
+header{
+    background-color: var(--cor1);
+    padding-top: 40px;
+    padding-bottom: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.548);
+    
+    
+}
+
+.audios{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+header h1{
+    text-align: center;
+    padding-bottom: 30px;
+    color: white;
+    font-size: 80px;
+    text-shadow: 2px 3px rgba(0, 0, 0, 0.589);
+    font-family: 'Kdam Thmor Pro', sans-serif;  
+    
+}
+
+.links-nav{
+    display: flex;
+    justify-content: left;
+}
+
+.links-nav li{
+    list-style: none;
+    margin: 5px;
+
+}
+
+header a{
+   padding: 10px;
+   text-decoration: none;
+   color: white;
+   text-shadow: 1px 1px 1px rgb(0, 0, 0);
+   font-family: var(--font2);
+   
+}
+
+header a:hover{
+    border: solid 1px rgba(0, 0, 0, 0.329);
+    border-radius: 13px;
+    background-color: var(--cor2);
+    transition: 0.3s;
+    
+}
+
+#Select{
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: var(--font1); 
+    
+}
+
+main{
+    background-color: var(--cor2);
+    height: 100%;
+    padding: 40px;
+}
+
+section{
+    background-color: var(--cor3);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: solid 1px black;
+    padding: 15px;
+    border-radius: 5px 150px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.507);
+    
+}
+section ul{
+    padding-bottom: 20px;
+    font-family: var(--font2);
+    color: var(--cor1);
+}
+section li{
+    list-style: none;
+    padding-top: 34px;
+    font-size: 20px;
+}
+
+article{
+    background-color: var(--cor2);
+    border: solid 1px black;
+    width: 500px;
+    text-align: justify;
+    border-radius: 25px;
+    transition: transform .2s;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.61);
+
+}
+
+article:hover{
+    transform: scale(1.05);
+}
+
+article p {
+    text-align: justify;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 15px;
+    font-family: var(--font2);
+    color: var(--cor5);
+}
+
+aside{
+    display: flex;
+
+    background-image: url(imagens/pngwing.com.png);
+    flex-direction: row;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    align-items: center;
+    
+
+}
+
+.img-fundo{
+    height: 400px;
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+.img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    transition: transform .2s;
+}
+
+img:hover{
+    transform: scale(1.05);
+}
+
+
+footer{
+    background-color:var(--cor5) ;
+    color: rgba(255, 255, 255, 0.829);
+    
+}
+
+.infos{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.infos p{
+    padding-top: 10px;
+}
+
+.extras{
+    display: flex;
+}
+
+.extras li{
+    list-style: none;
+    margin-left: 30px;
+    padding: 10px;
+    
+}
+    
+.extras a{
+    color: white;
+    text-decoration: none;
+}
+
+.extras a:hover{
+    text-decoration: underline;
+}
+
+.card2{
+    margin-top: 20px;
+}
